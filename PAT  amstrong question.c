@@ -54,7 +54,7 @@ int isArmstrong(int num) {
     return (sum == num);
 }
 
-int isPer(int num) {
+int isPerfect(int num) {
     int i, sum = 0;
     for (i = 1; i < num; i++) {
         if (num % i == 0) {
